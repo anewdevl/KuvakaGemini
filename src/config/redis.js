@@ -5,7 +5,12 @@ let redisClient = null
 async function connectRedis() {
   try {
     redisClient = redis.createClient({
-      url: process.env.REDIS_URL || "redis://localhost:6379",
+      socket: {
+        host: "redis-14372.c15.us-east-1-2.ec2.redns.redis-cloud.com",
+        port: 14372,
+      },
+      username: "default",
+      password: process.env.REDIS_PASSWORD, // set this in your env!
     })
 
     redisClient.on("error", (err) => {

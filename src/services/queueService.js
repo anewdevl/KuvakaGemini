@@ -4,7 +4,10 @@ const { processMessageWithGemini } = require("./geminiService")
 // Create message processing queue
 const messageQueue = new Queue("gemini-messages", {
   redis: {
-    url: process.env.REDIS_URL || "redis://localhost:6379",
+    host: "redis-14372.c15.us-east-1-2.ec2.redns.redis-cloud.com",
+    port: 14372,
+    username: "default",
+    password: process.env.REDIS_PASSWORD,
   },
 })
 
