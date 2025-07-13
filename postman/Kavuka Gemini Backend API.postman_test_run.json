@@ -1,0 +1,352 @@
+{
+	"id": "23a7a626-ac3e-479d-917f-67d0166f5a11",
+	"name": "Kavuka Gemini Backend API",
+	"timestamp": "2025-07-13T17:59:44.010Z",
+	"collection_id": "46701176-935eace1-38ce-4c24-ab86-911507e17dd4",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-07-13T17:59:30.027Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "7a3ac502-b7d2-4e19-a04d-5f132f9da4fe",
+			"name": "Send OTP",
+			"url": "https://kuvakagemini.onrender.com/auth/send-otp",
+			"time": 425,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				425
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "18c259e4-9c5e-4257-87fb-71f57094d331",
+			"name": "Verify OTP",
+			"url": "https://kuvakagemini.onrender.com/auth/verify-otp",
+			"time": 128,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				128
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "198e6fcd-108b-4b82-a397-17f578d02f65",
+			"name": "Signup",
+			"url": "https://kuvakagemini.onrender.com/auth/signup",
+			"time": 85,
+			"responseCode": {
+				"code": 409,
+				"name": "Conflict"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				85
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f6fb273c-7c75-4ae0-9f2e-6bf44b38f1b6",
+			"name": "Forgot Password",
+			"url": "https://kuvakagemini.onrender.com/auth/forgot-password",
+			"time": 114,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				114
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5bee3eba-234f-4aa7-ba71-f5099e2f6ab3",
+			"name": "Set Password",
+			"url": "https://kuvakagemini.onrender.com/auth/set-password",
+			"time": 2380,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2380
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6c0111cd-b25b-4a96-966b-83fc59117faa",
+			"name": "Change Password",
+			"url": "https://kuvakagemini.onrender.com/auth/change-password",
+			"time": 2734,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2734
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3f674e45-a693-44f9-a70b-387555268e85",
+			"name": "Get User Profile",
+			"url": "https://kuvakagemini.onrender.com/user/me",
+			"time": 4545,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4545
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f074e8e5-ae63-401e-8a74-6d052220779a",
+			"name": "Create Chatroom",
+			"url": "https://kuvakagemini.onrender.com/chatroom",
+			"time": 86,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				86
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3ba3e8c7-4ddb-45f8-9fb5-58582bdae4fd",
+			"name": "Get All Chatrooms",
+			"url": "https://kuvakagemini.onrender.com/chatroom",
+			"time": 81,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				81
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "1b05336b-96a3-4ae9-ae63-58abc432eff7",
+			"name": "Get Chatroom Details",
+			"url": "https://kuvakagemini.onrender.com/chatroom/1",
+			"time": 81,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				81
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3cb792f6-883e-40d7-8945-76fbc92b50b4",
+			"name": "Send Message",
+			"url": "https://kuvakagemini.onrender.com/chatroom/1/message",
+			"time": 389,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				389
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "74249750-9e24-4775-a84a-b452ff42af67",
+			"name": "Get Messages",
+			"url": "https://kuvakagemini.onrender.com/chatroom/1/messages?page=1&limit=10",
+			"time": 224,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				224
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "92145496-0d56-4124-b9ec-8744ec63f039",
+			"name": "Get Subscription Status",
+			"url": "https://kuvakagemini.onrender.com/subscribe/status",
+			"time": 121,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				121
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "dd9a16be-ac78-488d-bde6-050141578cbc",
+			"name": "Create Pro Subscription",
+			"url": "https://kuvakagemini.onrender.com/subscribe/pro",
+			"time": 1002,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1002
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7d1e3dcb-9ac8-43da-9c28-e52e9c3abb96",
+			"name": "Health Check",
+			"url": "https://kuvakagemini.onrender.com/health",
+			"time": 85,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				85
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 12480,
+	"collection": {
+		"requests": [
+			{
+				"id": "7a3ac502-b7d2-4e19-a04d-5f132f9da4fe",
+				"method": "POST"
+			},
+			{
+				"id": "18c259e4-9c5e-4257-87fb-71f57094d331",
+				"method": "POST"
+			},
+			{
+				"id": "198e6fcd-108b-4b82-a397-17f578d02f65",
+				"method": "POST"
+			},
+			{
+				"id": "f6fb273c-7c75-4ae0-9f2e-6bf44b38f1b6",
+				"method": "POST"
+			},
+			{
+				"id": "5bee3eba-234f-4aa7-ba71-f5099e2f6ab3",
+				"method": "POST"
+			},
+			{
+				"id": "6c0111cd-b25b-4a96-966b-83fc59117faa",
+				"method": "POST"
+			},
+			{
+				"id": "3f674e45-a693-44f9-a70b-387555268e85",
+				"method": "GET"
+			},
+			{
+				"id": "f074e8e5-ae63-401e-8a74-6d052220779a",
+				"method": "POST"
+			},
+			{
+				"id": "3ba3e8c7-4ddb-45f8-9fb5-58582bdae4fd",
+				"method": "GET"
+			},
+			{
+				"id": "1b05336b-96a3-4ae9-ae63-58abc432eff7",
+				"method": "GET"
+			},
+			{
+				"id": "3cb792f6-883e-40d7-8945-76fbc92b50b4",
+				"method": "POST"
+			},
+			{
+				"id": "74249750-9e24-4775-a84a-b452ff42af67",
+				"method": "GET"
+			},
+			{
+				"id": "92145496-0d56-4124-b9ec-8744ec63f039",
+				"method": "GET"
+			},
+			{
+				"id": "dd9a16be-ac78-488d-bde6-050141578cbc",
+				"method": "POST"
+			},
+			{
+				"id": "7d1e3dcb-9ac8-43da-9c28-e52e9c3abb96",
+				"method": "GET"
+			}
+		]
+	}
+}
