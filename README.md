@@ -103,7 +103,7 @@ src/
 ### 1. Clone Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/anewdevl/KuvakaGemini
 cd gemini-backend-clone
 ```
 
